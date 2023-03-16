@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google fonts -->
+  <!-- Coiny
+       Nunito
+       Sono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Coiny&family=Nunito:wght@400;500;600;700&family=Sono:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+  <!-- CSS file -->
+  <link href="style.css" rel="stylesheet" />
+  <title>Tacos De Amigos | Review</title>
+
+</head>
+
+<body>
+  <div class="big-container">
+    <header class="header">
+      <div class="logo">
+        <!-- Tacos De Amigos LOGO -->
+        <img src="imgs/TDAs logo partial.png" alt="Tacos De Amigos Logo" />
+
+        <!-- Main Header -->
+        <h1>Share your experience ka Amigos</h1>
+      </div>
+      <!-- review button -->
+
+      <button class="btn btn-medium btn-open">Share a review</button>
+    </header>
+
+    <form class="fact-form hidden">
+      <!-- delicious, hygienic, and affordable -->
+      <input type="text" placeholder="I really enjoy the tacos of tacos de amigos..." />
+      <span id="word-count">300</span>
+      <!-- <input type="text" placeholder="Trustworthy source..." /> -->
+      <select>
+        <!-- COLORS RATING used
+        Very Satisfied - #16a34a
+        Satisfied - #fb923c
+        Neutral - #93A689
+        Unsatisfied - #dc2626
+        -->
+        <option value="">Rate us:</option>
+        <option>Very satisfied</option>
+        <option>Satisfied</option>
+        <option>Neutral</option>
+        <option>Unsatisfied </option>
+
+      </select>
+      <button class="btn btn-medium">Post</button>
+    </form>
+
+    <main class="main">
+      <aside>
+        <ul>
+          <li class="category"><button class="btn btn-all-reviews">Updates</button></li>
+          <li class="category">
+
+            <button class="btn btn-category" style="background-color:#ef4444;">All</button>
+
+          </li>
+          <li class="category"><button class="btn btn-category" style="background-color:#16a34a;">Very
+              Satisfied</button>
+          </li>
+        </ul>
+      </aside>
+      <section>
+        <ul class="review-list">
+
+          <li class="fact">
+            <p>START UP MARKET | SM CDO Downtown Premier through the support of City of Cagayan de Oro and
+              Department of
+              Trade and
+              Industry Misamis Oriental launches its StartUp Market as support to homegrown products.
+              <a class="source"
+                href="https://www.facebook.com/tacosdeamigos/posts/pfbid0Ta3vPWcHNFQhRvJYuWgmbe8fsgbAWyyzqd6LeZuhrNpEKKtk7RB68wTkK5KBLheil"
+                target="_blank">(Source)</a>
+            </p>
+            <span class="tag">Admin</span>
+            <div class="reactions">
+
+              <button>👍 15</button>
+              <button>💓 5</button>
+              <button>👎 0</button>
+            </div>
+          </li>
+
+          <li class="fact">
+            <p>The Vice Mayor of our city Ma'am Bebot, purchased and sampled the finest taco in CDO.
+              <a class="source"
+                href="https://www.facebook.com/tacosdeamigos/posts/pfbid02f5756BdYQyGvD9RiLqHU7324rLrzPVTbWdkkB2CnFzcAGSQVnow71AEXPPJDhTv3l"
+                target="_blank"> (Source) </a>
+            </p>
+            <span class="tag">Admin</span>
+            <div class="reactions">
+              <button>👍 25</button>
+              <button>💓 10</button>
+              <button>👎 0</button>
+            </div>
+          </li>
+
+
+
+
+
+        </ul>
+
+      </section>
+
+    </main>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
